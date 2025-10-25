@@ -1,0 +1,11 @@
+[Unit]
+Description=Recycled recycling daemon - automatic file deletion
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/recycled
+PIDFile=/var/run/recycled.pid
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
