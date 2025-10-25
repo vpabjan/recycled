@@ -32,7 +32,7 @@ An example config may just consist of one rule:
 >/home/user/Downloads 30d exclude iso zip\
 >/home/user/.cache 12h
 
-- this will do the previous and also clean the .cache folder ever 12 hours.
+- this will do the previous and also clean the .cache folder every 12 hours.
 
 Available time units are:
 - hour (h)
